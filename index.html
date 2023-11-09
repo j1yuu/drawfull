@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>DrawFUll</title>
+</head>
+
+<body>
+    <h1 class="title">DrawFUll</h1>
+    <div class="container">
+        <div class="left">
+            <div class="left-container">
+                <p class="settings-title">Settings</p>
+                <div class="settings-container">
+                    <input type="color" name="color" id="color">
+                    <div class="switch active color">Color</div>
+                    <div class="switch rainbow">Rainbow</div>
+                    <div class="switch eraser">Eraser</div>
+                    <div class="switch clear">Clear</div>
+                    <input type="range" id="size" min="1" max="32" value="16" step="1" />
+                    <p class="size">16x16</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="field-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
